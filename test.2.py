@@ -48,6 +48,7 @@ def TemperaturDaten(temperatures):
 def most_frequent(list):
     new_dict = {}
     index= 0
+    am_haeufigsten = []
     for item in list:
         
         if item not in new_dict:
@@ -55,9 +56,7 @@ def most_frequent(list):
             index +=1
 
 
-    for item in new_dict:
-        print("lol")
-       
+
     
     return new_dict
 

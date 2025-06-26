@@ -5,12 +5,12 @@ Python Lernplan - Woche 1 & 2
 
 Woche 1 - Grundlagen festigen (Listen, Dictionaries, Schleifen, Bedingungen)
 
-Tag 1
+Tag 1 DONE !!
 
 1. Zähle, wie viele Zahlen in der Liste [5, 12, 7, 20, 3] groesser als 10 sind.
 2. Gib fuer jede Zahl in der Liste [1, 2, 3, 4, 5] aus, ob sie gerade oder ungerade ist.
 
-Tag 2
+Tag 2 DONE!!!
 
 1. Berechne Summe und Durchschnitt der Zahlen [5, 10, 20, 8].
 2. Finde das kleinste und groesste Element in der Liste [7, 3, 12, 9, 15] (ohne min()/max()).

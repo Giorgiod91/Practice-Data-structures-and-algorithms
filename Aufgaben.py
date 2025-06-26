@@ -70,4 +70,56 @@ def klein_und_gross(Liste):
     return gross, klein
 
 print(klein_und_gross(Liste=[7, 3, 12, 9, 1, 15]))
+
+
+
+
+
+
+#1. Zaehle, wie oft jeder Buchstabe im String "hallo welt" vorkommt (Gross-/Kleinschreibung beachten).
+
+
+
+
+def how_often_in(Text):
+    new_dict = {"solo": [], "more": []}
+    index= 0
+    num = 0
+    counter = 0
+   
     
+    for i in Text:
+        if Text.count(i) > 1:
+            counter +=1
+            new_dict["more"].append(i)
+                    
+        else:
+            new_dict["solo"].append(i)
+            counter +=1  
+                     
+     
+            
+        
+
+    return new_dict
+
+print(how_often_in(Text="hallo welt"))
+
+#2. Zaehle, wie oft jedes Wort im Satz "Hallo Welt hallo" vorkommt (Gross-/Kleinschreibung ignorieren).
+
+
+def how_many_word(Text):
+    result_dict = {}
+    words = Text.split()  
+    
+    for word in words:
+        word = word.lower().strip(".,!?") 
+        if word in result_dict:
+            result_dict[word] += 1
+        else:
+            result_dict[word] = 1
+            
+    return result_dict
+
+
+print(how_many_word(Text="Hallo Welt hallo"))

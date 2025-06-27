@@ -15,12 +15,12 @@ Tag 2 DONE!!!
 1. Berechne Summe und Durchschnitt der Zahlen [5, 10, 20, 8].
 2. Finde das kleinste und groesste Element in der Liste [7, 3, 12, 9, 15] (ohne min()/max()).
 
-Tag 3
+Tag 3 DONE!!
 
 1. Zaehle, wie oft jeder Buchstabe im String "hallo welt" vorkommt (Gross-/Kleinschreibung beachten).
 2. Zaehle, wie oft jedes Wort im Satz "Hallo Welt hallo" vorkommt (Gross-/Kleinschreibung ignorieren).
 
-Tag 4
+Tag 4 DONE!!!
 
 1. Finde das haeufigste Element in der Liste [1, 2, 2, 3, 1, 2].
 2. Filtere aus der Liste [15, 22, 8, 10, 25] alle Zahlen, die groesser als 20 sind.

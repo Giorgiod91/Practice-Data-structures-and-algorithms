@@ -123,3 +123,39 @@ def how_many_word(Text):
 
 
 print(how_many_word(Text="Hallo Welt hallo"))
+
+
+#1. Finde das haeufigste Element in der Liste [1, 2, 2, 3, 1, 2].
+
+
+def heaufigste_element(Liste):
+    result_dict = {}
+
+    for num in Liste:
+        if num in result_dict:
+            result_dict[num] +=1
+        else:
+            result_dict[num] = 1
+
+    
+
+    return result_dict
+
+
+print(heaufigste_element(Liste=[1, 2, 2, 3, 1, 2]))
+
+
+#2. Filtere aus der Liste [15, 22, 8, 10, 25] alle Zahlen, die groesser als 20 sind.
+
+
+def groesser_als_20(Liste):
+    bigger_then_20 = []
+
+    for num in Liste:
+        if num > 20:
+            bigger_then_20.append(num)
+
+    return bigger_then_20
+
+print(groesser_als_20(Liste=[15, 22, 8, 10, 25]))
+

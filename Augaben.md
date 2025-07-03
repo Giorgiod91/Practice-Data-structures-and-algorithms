@@ -25,7 +25,7 @@ Tag 4 DONE!!!
 1. Finde das haeufigste Element in der Liste [1, 2, 2, 3, 1, 2].
 2. Filtere aus der Liste [15, 22, 8, 10, 25] alle Zahlen, die groesser als 20 sind.
 
-Tag 5
+Tag 5 DONE!!
 
 1. Schreibe eine Funktion, die fuer eine Liste Zahlen zurueckgibt, die groesser als der Durchschnitt sind.
 2. Gib aus, wie viele Zahlen in der Liste [3, 5, 7, 9] ungerade sind.

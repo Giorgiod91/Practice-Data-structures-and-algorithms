@@ -159,3 +159,41 @@ def groesser_als_20(Liste):
 
 print(groesser_als_20(Liste=[15, 22, 8, 10, 25]))
 
+
+
+def bigger_durchschnitt(Liste):
+    bigger = []
+    leange = 0
+    sum = 0
+    durchschnitt = 0
+    for zahl in Liste:
+        
+        sum = zahl + sum
+        leange +=1
+        durchschnitt = sum / leange
+        
+    for num in Liste:
+        if num > durchschnitt:
+            bigger.append(zahl)
+     
+
+    return bigger
+        
+        
+        
+    
+        
+print(bigger_durchschnitt(Liste=[2,4,5,6,7,8,9]))
+
+
+
+def ungerade(Liste):
+    ungerade = 0
+    for zahl in Liste:
+        if zahl %2 != 0:
+            ungerade +=1
+
+    return ungerade
+
+print(ungerade(Liste=[3, 5, 6, 9]))
+

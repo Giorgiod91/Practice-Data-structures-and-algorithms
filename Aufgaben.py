@@ -197,3 +197,54 @@ def ungerade(Liste):
 
 print(ungerade(Liste=[3, 5, 6, 9]))
 
+
+
+def bubbleSort(Liste):
+    n = len(Liste)
+    for i in range(n):
+        swapped = False
+        for j in range(0, n - i - 1):
+            if Liste[j] > Liste[j + 1]:
+                # Swap
+                Liste[j], Liste[j + 1] = Liste[j + 1], Liste[j]
+                swapped = True
+        if not swapped:
+            break 
+    return Liste
+
+print(bubbleSort(Liste=[4, 2, 5, 1, 3]))
+
+
+
+def two_sum(Liste, target):
+    for i in range(len(Liste)):
+        for j in range(i + 1, len(Liste)):  
+            if Liste[i] + Liste[j] == target:
+                return [i, j] 
+   
+
+print(two_sum(Liste=[2,7,11,15], target = 9))
+
+
+
+def Palindrom(x):
+  
+    return str(x) == str(x)[::-1]
+
+
+    
+  
+
+
+print(Palindrom(x=121))
+
+def strStr(haystack, needle):
+    first_index = haystack.find(needle)
+    second_index = haystack.find(needle, first_index + 1)
+
+    return first_index, second_index
+
+
+
+
+print(strStr(haystack="sadbutsad", needle="sad"))
